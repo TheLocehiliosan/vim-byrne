@@ -26,74 +26,74 @@ let g:colors_name = "byrne"
 
 " Colors {{{1
 "" VIM Features {{{2
-hi ColorColumn  ctermfg=none ctermbg=1    guifg=none    guibg=#800000 cterm=none      gui=none
-hi CursorColumn ctermfg=none ctermbg=234  guifg=none    guibg=#1c1c1c cterm=none      gui=none
-hi DiffAdd      ctermfg=0    ctermbg=121  guifg=#000000 guibg=#afd7af cterm=none      gui=none
-hi DiffChange   ctermfg=0    ctermbg=181  guifg=#000000 guibg=#d7afaf cterm=none      gui=none
-hi DiffDelete   ctermfg=0    ctermbg=246  guifg=#000000 guibg=#949494 cterm=none      gui=none
-hi DiffText     ctermfg=0    ctermbg=174  guifg=#000000 guibg=#d78787 cterm=none      gui=none
-hi Directory    ctermfg=95   ctermbg=none guifg=#875f5f guibg=none    cterm=none      gui=none
-hi ErrorMsg     ctermfg=167  ctermbg=236  guifg=#df5f5f guibg=#303030 cterm=none      gui=none
-hi FoldColumn   ctermfg=102  ctermbg=235  guifg=#afaf87 guibg=#262626 cterm=none      gui=none
-hi Folded       ctermfg=130  ctermbg=235  guifg=#87875f guibg=#262626 cterm=none      gui=none
-hi LineNr       ctermfg=95   ctermbg=none guifg=#875f5f guibg=none    cterm=none      gui=none
-hi MatchParen   ctermfg=0    ctermbg=240  guifg=#000000 guibg=#585858 cterm=none      gui=none
-hi ModeMsg      ctermfg=209  ctermbg=none guifg=#ff875f guibg=none    cterm=none      gui=none
-hi MoreMsg      ctermfg=216  ctermbg=none guifg=#ffaf87 guibg=none    cterm=none      gui=none
-hi NonText      ctermfg=236  ctermbg=none guifg=#303030 guibg=none    cterm=none      gui=none
-hi Normal       ctermfg=103  ctermbg=0    guifg=#8787af guibg=#000000 cterm=none      gui=none
-hi Pmenu        ctermfg=130  ctermbg=233  guifg=#af5f00 guibg=#121212 cterm=none      gui=none
-hi PmenuSbar    ctermfg=208  ctermbg=236  guifg=#ff8700 guibg=#303030 cterm=none      gui=none
-hi PmenuSel     ctermfg=208  ctermbg=239  guifg=#ff8700 guibg=#4e4e4e cterm=none      gui=none
-hi PmenuThumb   ctermfg=none ctermbg=103  guifg=none    guibg=#8787af cterm=none      gui=none
-hi Question     ctermfg=215  ctermbg=none guifg=#ffaf5f guibg=none    cterm=none      gui=none
-hi Search       ctermfg=173  ctermbg=237  guifg=#d7875f guibg=#3a3a3a cterm=none      gui=none
-hi SignColumn   ctermfg=none ctermbg=235  guifg=none    guibg=#262626 cterm=none      gui=none
-hi SpecialKey   ctermfg=172  ctermbg=none guifg=#d78700 guibg=none    cterm=none      gui=none
-hi SpellBad     ctermfg=88   ctermbg=none guifg=#870000 guibg=none    cterm=underline gui=underline
-hi SpellCap     ctermfg=75   ctermbg=none guifg=#5fafff guibg=none    cterm=underline gui=underline
-hi SpellLocal   ctermfg=53   ctermbg=none guifg=#5f005f guibg=none    cterm=underline gui=underline
-hi SpellRare    ctermfg=28   ctermbg=none guifg=#008700 guibg=none    cterm=underline gui=underline
-hi StatusLine   ctermfg=173  ctermbg=236  guifg=#d7875f guibg=#303030 cterm=none      gui=none
-hi StatusLineNC ctermfg=16   ctermbg=236  guifg=#000000 guibg=#303030 cterm=none      gui=none
-hi TabLine      ctermfg=96   ctermbg=236  guifg=#875f87 guibg=#303030 cterm=none      gui=none
-hi TabLineFill  ctermfg=16   ctermbg=236  guifg=#000000 guibg=#303030 cterm=none      gui=none
-hi TabLineSel   ctermfg=216  ctermbg=239  guifg=#ffaf87 guibg=#4e4e4e cterm=none      gui=none
-hi Title        ctermfg=209  ctermbg=none guifg=#ff875f guibg=none    cterm=none      gui=none
-hi VertSplit    ctermfg=236  ctermbg=236  guifg=#303030 guibg=#303030 cterm=none      gui=none
-hi Visual       ctermfg=0    ctermbg=103  guifg=#000000 guibg=#8787af cterm=none      gui=none
-hi WarningMsg   ctermfg=225  ctermbg=236  guifg=#ffd7ff guibg=#303030 cterm=none      gui=none
-hi Wildmenu     ctermfg=178  ctermbg=239  guifg=#4e4e4e guibg=#d7af00 cterm=none      gui=none
+hi ColorColumn  ctermfg=NONE ctermbg=1    guifg=NONE    guibg=#800000 cterm=NONE      gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=234  guifg=NONE    guibg=#1c1c1c cterm=NONE      gui=NONE
+hi DiffAdd      ctermfg=0    ctermbg=121  guifg=#000000 guibg=#afd7af cterm=NONE      gui=NONE
+hi DiffChange   ctermfg=0    ctermbg=181  guifg=#000000 guibg=#d7afaf cterm=NONE      gui=NONE
+hi DiffDelete   ctermfg=0    ctermbg=246  guifg=#000000 guibg=#949494 cterm=NONE      gui=NONE
+hi DiffText     ctermfg=0    ctermbg=174  guifg=#000000 guibg=#d78787 cterm=NONE      gui=NONE
+hi Directory    ctermfg=95   ctermbg=NONE guifg=#875f5f guibg=NONE    cterm=NONE      gui=NONE
+hi ErrorMsg     ctermfg=167  ctermbg=236  guifg=#df5f5f guibg=#303030 cterm=NONE      gui=NONE
+hi FoldColumn   ctermfg=102  ctermbg=235  guifg=#afaf87 guibg=#262626 cterm=NONE      gui=NONE
+hi Folded       ctermfg=130  ctermbg=235  guifg=#87875f guibg=#262626 cterm=NONE      gui=NONE
+hi LineNr       ctermfg=95   ctermbg=NONE guifg=#875f5f guibg=NONE    cterm=NONE      gui=NONE
+hi MatchParen   ctermfg=0    ctermbg=240  guifg=#000000 guibg=#585858 cterm=NONE      gui=NONE
+hi ModeMsg      ctermfg=209  ctermbg=NONE guifg=#ff875f guibg=NONE    cterm=NONE      gui=NONE
+hi MoreMsg      ctermfg=216  ctermbg=NONE guifg=#ffaf87 guibg=NONE    cterm=NONE      gui=NONE
+hi NonText      ctermfg=236  ctermbg=NONE guifg=#303030 guibg=NONE    cterm=NONE      gui=NONE
+hi Normal       ctermfg=103  ctermbg=0    guifg=#8787af guibg=#000000 cterm=NONE      gui=NONE
+hi Pmenu        ctermfg=130  ctermbg=233  guifg=#af5f00 guibg=#121212 cterm=NONE      gui=NONE
+hi PmenuSbar    ctermfg=208  ctermbg=236  guifg=#ff8700 guibg=#303030 cterm=NONE      gui=NONE
+hi PmenuSel     ctermfg=208  ctermbg=239  guifg=#ff8700 guibg=#4e4e4e cterm=NONE      gui=NONE
+hi PmenuThumb   ctermfg=NONE ctermbg=103  guifg=NONE    guibg=#8787af cterm=NONE      gui=NONE
+hi Question     ctermfg=215  ctermbg=NONE guifg=#ffaf5f guibg=NONE    cterm=NONE      gui=NONE
+hi Search       ctermfg=173  ctermbg=237  guifg=#d7875f guibg=#3a3a3a cterm=NONE      gui=NONE
+hi SignColumn   ctermfg=NONE ctermbg=235  guifg=NONE    guibg=#262626 cterm=NONE      gui=NONE
+hi SpecialKey   ctermfg=172  ctermbg=NONE guifg=#d78700 guibg=NONE    cterm=NONE      gui=NONE
+hi SpellBad     ctermfg=88   ctermbg=NONE guifg=#870000 guibg=NONE    cterm=underline gui=underline
+hi SpellCap     ctermfg=75   ctermbg=NONE guifg=#5fafff guibg=NONE    cterm=underline gui=underline
+hi SpellLocal   ctermfg=53   ctermbg=NONE guifg=#5f005f guibg=NONE    cterm=underline gui=underline
+hi SpellRare    ctermfg=28   ctermbg=NONE guifg=#008700 guibg=NONE    cterm=underline gui=underline
+hi StatusLine   ctermfg=173  ctermbg=236  guifg=#d7875f guibg=#303030 cterm=NONE      gui=NONE
+hi StatusLineNC ctermfg=16   ctermbg=236  guifg=#000000 guibg=#303030 cterm=NONE      gui=NONE
+hi TabLine      ctermfg=96   ctermbg=236  guifg=#875f87 guibg=#303030 cterm=NONE      gui=NONE
+hi TabLineFill  ctermfg=16   ctermbg=236  guifg=#000000 guibg=#303030 cterm=NONE      gui=NONE
+hi TabLineSel   ctermfg=216  ctermbg=239  guifg=#ffaf87 guibg=#4e4e4e cterm=NONE      gui=NONE
+hi Title        ctermfg=209  ctermbg=NONE guifg=#ff875f guibg=NONE    cterm=NONE      gui=NONE
+hi VertSplit    ctermfg=236  ctermbg=236  guifg=#303030 guibg=#303030 cterm=NONE      gui=NONE
+hi Visual       ctermfg=0    ctermbg=103  guifg=#000000 guibg=#8787af cterm=NONE      gui=NONE
+hi WarningMsg   ctermfg=225  ctermbg=236  guifg=#ffd7ff guibg=#303030 cterm=NONE      gui=NONE
+hi Wildmenu     ctermfg=178  ctermbg=239  guifg=#4e4e4e guibg=#d7af00 cterm=NONE      gui=NONE
 
 
 "" Syntax highlighting {{{2
-hi Comment      ctermfg=239  ctermbg=none guifg=#4e4e4e guibg=none    cterm=none      gui=none
-hi Conditional  ctermfg=178  ctermbg=none guifg=#d7af00 guibg=none    cterm=none      gui=none
-hi Constant     ctermfg=130  ctermbg=none guifg=#af5f00 guibg=none    cterm=none      gui=none
-hi Error        ctermfg=136  ctermbg=52   guifg=#af8700 guibg=#5f0000 cterm=none      gui=none
-hi Identifier   ctermfg=131  ctermbg=none guifg=#af5f5f guibg=none    cterm=none      gui=none
-hi Ignore       ctermfg=236  ctermbg=none guifg=#303030 guibg=none    cterm=none      gui=none
-hi Number       ctermfg=130  ctermbg=none guifg=#af5f00 guibg=none    cterm=none      gui=none
-hi PreProc      ctermfg=96   ctermbg=none guifg=#875f87 guibg=none    cterm=none      gui=none
-hi Special      ctermfg=173  ctermbg=none guifg=#d7875f guibg=none    cterm=none      gui=none
-hi Statement    ctermfg=136  ctermbg=none guifg=#af8700 guibg=none    cterm=none      gui=none
-hi String       ctermfg=64   ctermbg=none guifg=#5f8700 guibg=none    cterm=none      gui=none
-hi Todo         ctermbg=234  ctermfg=213  guifg=#ff87ff guibg=#1c1c1c cterm=none      gui=none
-hi Type         ctermfg=67   ctermbg=none guifg=#5f87af guibg=none    cterm=none      gui=none
-hi Underlined   ctermfg=none ctermbg=none guifg=none    guibg=none    cterm=underline gui=underline
+hi Comment      ctermfg=239  ctermbg=NONE guifg=#4e4e4e guibg=NONE    cterm=NONE      gui=NONE
+hi Conditional  ctermfg=178  ctermbg=NONE guifg=#d7af00 guibg=NONE    cterm=NONE      gui=NONE
+hi Constant     ctermfg=130  ctermbg=NONE guifg=#af5f00 guibg=NONE    cterm=NONE      gui=NONE
+hi Error        ctermfg=136  ctermbg=52   guifg=#af8700 guibg=#5f0000 cterm=NONE      gui=NONE
+hi Identifier   ctermfg=131  ctermbg=NONE guifg=#af5f5f guibg=NONE    cterm=NONE      gui=NONE
+hi Ignore       ctermfg=236  ctermbg=NONE guifg=#303030 guibg=NONE    cterm=NONE      gui=NONE
+hi Number       ctermfg=130  ctermbg=NONE guifg=#af5f00 guibg=NONE    cterm=NONE      gui=NONE
+hi PreProc      ctermfg=96   ctermbg=NONE guifg=#875f87 guibg=NONE    cterm=NONE      gui=NONE
+hi Special      ctermfg=173  ctermbg=NONE guifg=#d7875f guibg=NONE    cterm=NONE      gui=NONE
+hi Statement    ctermfg=136  ctermbg=NONE guifg=#af8700 guibg=NONE    cterm=NONE      gui=NONE
+hi String       ctermfg=64   ctermbg=NONE guifg=#5f8700 guibg=NONE    cterm=NONE      gui=NONE
+hi Todo         ctermbg=234  ctermfg=213  guifg=#ff87ff guibg=#1c1c1c cterm=NONE      gui=NONE
+hi Type         ctermfg=67   ctermbg=NONE guifg=#5f87af guibg=NONE    cterm=NONE      gui=NONE
+hi Underlined   ctermfg=NONE ctermbg=NONE guifg=NONE    guibg=NONE    cterm=underline gui=underline
 
 "" Special {{{2
 
 """ diff (not vimdiff)
-hi diffAdded    ctermfg=64   ctermbg=none guifg=#5f8700 guibg=none    cterm=none      gui=none
-hi diffFile     ctermfg=130  ctermbg=none guifg=#af5f00 guibg=none    cterm=none      gui=none
-hi diffRemoved  ctermfg=131  ctermbg=none guifg=#af5f5f guibg=none    cterm=none      gui=none
-hi diffSubname  ctermfg=238  ctermbg=none guifg=#444444 guibg=none    cterm=none      gui=none
+hi diffAdded    ctermfg=64   ctermbg=NONE guifg=#5f8700 guibg=NONE    cterm=NONE      gui=NONE
+hi diffFile     ctermfg=130  ctermbg=NONE guifg=#af5f00 guibg=NONE    cterm=NONE      gui=NONE
+hi diffRemoved  ctermfg=131  ctermbg=NONE guifg=#af5f5f guibg=NONE    cterm=NONE      gui=NONE
+hi diffSubname  ctermfg=238  ctermbg=NONE guifg=#444444 guibg=NONE    cterm=NONE      gui=NONE
 
 """ Color Switching
-hi BaseComment  ctermfg=239  ctermbg=none guifg=#4e4e4e guibg=none    cterm=none      gui=none
-hi DarkComment  ctermfg=235  ctermbg=none guifg=#262626 guibg=none    cterm=none      gui=none
-hi LightComment ctermfg=15   ctermbg=none guifg=#ffffff guibg=none    cterm=none      gui=none
+hi BaseComment  ctermfg=239  ctermbg=NONE guifg=#4e4e4e guibg=NONE    cterm=NONE      gui=NONE
+hi DarkComment  ctermfg=235  ctermbg=NONE guifg=#262626 guibg=NONE    cterm=NONE      gui=NONE
+hi LightComment ctermfg=15   ctermbg=NONE guifg=#ffffff guibg=NONE    cterm=NONE      gui=NONE
 function! ToggleCommentColor()
   if synIDattr(hlID('Comment'), 'fg#') == 239
     hi Comment ctermfg=235
@@ -106,7 +106,7 @@ endfunction
 map <Leader>tc :call ToggleCommentColor()<CR>
 
 """ Trailing Whitespace
-hi    XtraSpace ctermfg=none ctermbg=124  guifg=none    guibg=#af0000 cterm=none      gui=none
+hi    XtraSpace ctermfg=NONE ctermbg=124  guifg=NONE    guibg=#af0000 cterm=NONE      gui=NONE
 match XtraSpace /\s\+$/
 
 "" Linked Groups {{{2
