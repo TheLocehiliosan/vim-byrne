@@ -90,6 +90,10 @@ hi diffFile     ctermfg=130  ctermbg=NONE guifg=#af5f00 guibg=NONE    cterm=NONE
 hi diffRemoved  ctermfg=131  ctermbg=NONE guifg=#af5f5f guibg=NONE    cterm=NONE      gui=NONE
 hi diffSubname  ctermfg=238  ctermbg=NONE guifg=#444444 guibg=NONE    cterm=NONE      gui=NONE
 
+""" ALE
+hi ALEErrorSign   ctermfg=196  ctermbg=NONE guifg=#ff0000 guibg=NONE    cterm=NONE      gui=NONE
+hi ALEWarningSign ctermfg=178  ctermbg=NONE guifg=#d7af00 guibg=NONE    cterm=NONE      gui=NONE
+
 """ Color Switching
 hi BaseComment  ctermfg=239  ctermbg=NONE guifg=#4e4e4e guibg=NONE    cterm=NONE      gui=NONE
 hi DarkComment  ctermfg=235  ctermbg=NONE guifg=#262626 guibg=NONE    cterm=NONE      gui=NONE
