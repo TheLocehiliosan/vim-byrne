@@ -121,5 +121,38 @@ hi link CursorLine CursorColumn
 hi link IncSearch Search
 hi link VisualNOS Visual
 
+" Lightline Colorscheme {{{1
+let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
+
+let s:p.normal.left =     [ ['#d7875f', '#4e4e4e', 173, 239, 'bold'] ]
+let s:p.normal.middle =   [ ['#875f87', '#303030', 96, 236] ]
+let s:p.normal.right =    [ ['#875f87', '#303030', 96, 236] ]
+
+let s:p.visual.left =     [ ['#4e4e4e', '#d7875f', 'bold'] ]
+let s:p.visual.middle =   [ ['#875f87', '#303030', 96, 236] ]
+let s:p.visual.right =    [ ['#875f87', '#303030', 96, 236] ]
+
+let s:p.insert.left =     [ ['#4e4e4e', '#d7875f', 'bold'] ]
+let s:p.insert.middle =   [ ['#875f87', '#303030', 96, 236] ]
+let s:p.insert.right =    [ ['#875f87', '#303030', 96, 236] ]
+
+let s:p.replace.left =    [ ['#4e4e4e', '#d7875f', 'bold'] ]
+let s:p.replace.middle =  [ ['#875f87', '#303030', 96, 236] ]
+let s:p.replace.right =   [ ['#875f87', '#303030', 96, 236] ]
+
+let s:p.inactive.left =   [ ['#606060', '#262626', 241, 235] ]
+let s:p.inactive.middle = [ ['#606060', '#262626', 241, 235] ]
+let s:p.inactive.right =  [ ['#606060', '#262626', 241, 235] ]
+
+let s:p.tabline.left =    [ ['#875f87', '#303030', 96, 236] ]
+let s:p.tabline.middle =  [ ['#875f87', '#303030', 96, 236] ]
+let s:p.tabline.right =   [ ['#875f87', '#303030', 96, 236] ]
+let s:p.tabline.tabsel =  [ ['#ffaf87', '#4e4e4e', 216, 239] ]
+
+let s:p.normal.error =    [ ['#ff0000', '#303030', 196, 236] ]
+let s:p.normal.warning =  [ ['#d7af00', '#303030', 178, 236] ]
+
+let g:lightline#colorscheme#byrne#palette = lightline#colorscheme#fill(s:p)
+
 " Mode Lines {{{1
 " vim: syntax=color_scheme fdm=marker
