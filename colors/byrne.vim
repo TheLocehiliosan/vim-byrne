@@ -48,7 +48,7 @@ hi PmenuSel     ctermfg=208  ctermbg=239  guifg=#ff8700 guibg=#4e4e4e cterm=NONE
 hi PmenuThumb   ctermfg=NONE ctermbg=103  guifg=NONE    guibg=#8787af cterm=NONE      gui=NONE
 hi Question     ctermfg=215  ctermbg=NONE guifg=#ffaf5f guibg=NONE    cterm=NONE      gui=NONE
 hi Search       ctermfg=173  ctermbg=237  guifg=#d7875f guibg=#3a3a3a cterm=NONE      gui=NONE
-hi SignColumn   ctermfg=NONE ctermbg=235  guifg=NONE    guibg=#262626 cterm=NONE      gui=NONE
+hi SignColumn   ctermfg=235  ctermbg=NONE guifg=#262626 guibg=NONE    cterm=NONE      gui=NONE
 hi SpecialKey   ctermfg=172  ctermbg=NONE guifg=#d78700 guibg=NONE    cterm=NONE      gui=NONE
 hi SpellBad     ctermfg=88   ctermbg=NONE guifg=#870000 guibg=NONE    cterm=underline gui=underline
 hi SpellCap     ctermfg=75   ctermbg=NONE guifg=#5fafff guibg=NONE    cterm=underline gui=underline
